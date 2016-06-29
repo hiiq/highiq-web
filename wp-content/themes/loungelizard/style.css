@@ -144,7 +144,6 @@ p {
 }
 
 /* Tiny Desktops */
-
 @media only screen and (max-width: 768px) {
     .bg-img {
         /*background: url('https://ddgsb4yncp1w5.cloudfront.net/wp-content/themes/loungelizard/images/homepage/tablet_portrait.jpg') no-repeat center center;*/
@@ -152,8 +151,8 @@ p {
         background-size: cover;
     }
 }
-/* Small Desktops */
 
+/* Small Desktops */
 @media only screen and (min-width: 768px) and (max-width: 1224px) {
     .bg-img {
         /*background: url('https://ddgsb4yncp1w5.cloudfront.net/wp-content/themes/loungelizard/images/homepage/tablet_landscape.jpg') no-repeat center center;*/
@@ -161,8 +160,8 @@ p {
         background-size: cover;
     }
 }
-/* Desktops and laptops */
 
+/* Desktops and laptops */
 @media only screen and (min-width: 1224px) {
     .bg-img.fine {
         /*background: url('https://ddgsb4yncp1w5.cloudfront.net/wp-content/themes/loungelizard/images/homepage/desktop.jpg') no-repeat center center;*/
@@ -181,37 +180,37 @@ p {
 }
 
 /* Smartphones (portrait) */
-
 @media only screen and (max-device-width: 768px) and (orientation: portrait) {
     .bg-img {
         background: url('https://ddgsb4yncp1w5.cloudfront.net/wp-content/themes/loungelizard/images/homepage/mobile_portrait.jpg') no-repeat center center;
         background-size: cover;
     }
 }
-/* Smartphones (landscape) */
 
+/* Smartphones (landscape) */
 @media only screen and (max-device-width: 768px) and (orientation: landscape) {
     .bg-img {
         background: url('https://ddgsb4yncp1w5.cloudfront.net/wp-content/themes/loungelizard/images/homepage/mobile_landscape.jpg') no-repeat center center;
         background-size: cover;
     }
 }
-/* iPads (portrait) */
 
+/* iPads (portrait) */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
     .bg-img {
         background: url('https://ddgsb4yncp1w5.cloudfront.net/wp-content/themes/loungelizard/images/homepage/tablet_portrait.jpg') no-repeat center center;
         background-size: cover;
     }
 }
-/* iPads (landscape) */
 
+/* iPads (landscape) */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .bg-img {
         background: url('https://ddgsb4yncp1w5.cloudfront.net/wp-content/themes/loungelizard/images/homepage/tablet_landscape.jpg') no-repeat center center;
         background-size: cover;
     }
 }
+
 .header {
     position: fixed;
     right: 0px;
@@ -3069,20 +3068,17 @@ span.wpcf7-not-valid-tip {
 	list-style-type:none;
 }
 
-
 #menu-desktop-menu li a{
-  color:#ff5d4c;
-  font-size:18px;
-	padding-left: 44px;
+    color: #ff5d4c;
+    font-size: 0.6em;           /* CHANGED: 18px */
+    padding-left: 44px;
+    font-weight: bold;          /* CHANGED: ADDED */
+    text-transform: uppercase;  /* CHANGED: ADDED */
 }
 
 .home #menu-desktop-menu li a, .sticky #menu-desktop-menu li a{
 	color:#ffffff;
 }
-
-
-
-
 
 #careers-content a{
   font-size:24px;
@@ -3103,11 +3099,9 @@ span.wpcf7-not-valid-tip {
   position:static;
 }
 
-
 .page-content .image img{
   width:100%;
 }
-
 
 #cover-text {
     width: 100%;
